@@ -1,4 +1,6 @@
-
+/*Open your visual studio code, ctrl+c and ctrl+v, and run.
+The const "tam" manage up to which prime number goes. In my 8gb ram computer it goes up to 63 million, i was trying to go beyond 1 billion.
+I had to put manually the numbers until 9973, because of the exceptions, 7 %7 == 0, so it would not inclued in vector, and if i put a condition x!=7, it would be heavier to run*/
 
 function conditionBase1(c){
    if ((c - 3) % 7 == 0)
